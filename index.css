@@ -260,4 +260,88 @@ footer {
   height: 100vh;
   padding: 8rem;
 }
+
+#rock-table{
+  width: 100vw;
+}
+}
+
+@media (min-width: 451px) and (max-width: 1100px){
+  body{
+    position: relative;
+  }
+  
+  #main {
+      width: 100vw;
+      flex-direction: column;
+  }
+  
+  footer {
+    width: 100vw;
+    height: 2rem;
+    font-size: medium;
+    padding: 0.5rem 9rem;
+    position: absolute;
+    bottom: -115%;
+  }
+  
+  #headerContainer {
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 9rem;
+    position: relative;
+  }
+  
+  #headerContainer img {
+    width: 9rem;
+    height: 80%;
+    left: 1.5rem;
+    padding: 0;
+  }
+  
+  #headerContainer h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10rem;
+  }
+  
+  #location-form {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 12rem;
+    padding: 2rem 8rem 4rem 8rem;
+    gap: 1rem;
+  }
+  
+  .location-information {
+    width: 100%;
+  }
+  
+  .location-coordinate-1, .location-coordinate-2 {
+    width: 100vw;
+  }
+  
+  .location-coordinate-1 h4, .location-coordinate-2 h4 {
+    font-size: larger;
+    text-align: start;
+  }
+  
+  .location-coordinate-1 input, .location-coordinate-2 input {
+    width: 6rem;
+  }
+  
+  #map{
+    width: 100vw;
+    height: 100vh;
+    padding: 8rem;
+  }
+
+  #rock-table{
+    width: 100vw;
+  }
 }
