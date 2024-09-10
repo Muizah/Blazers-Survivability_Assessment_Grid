@@ -185,7 +185,7 @@ footer {
 }
 
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 450px) {
   
 body{
   position: relative;
@@ -202,7 +202,7 @@ footer {
   font-size: medium;
   padding: 0.5rem 9rem;
   position: absolute;
-  bottom: -100%;
+  bottom: -115%;
 }
 
 #headerContainer {
