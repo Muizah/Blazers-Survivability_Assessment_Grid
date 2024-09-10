@@ -200,9 +200,9 @@ footer {
   width: 100vw;
   height: 2rem;
   font-size: medium;
-  padding: 0.5rem 8.1rem;
+  padding: 0.5rem 8rem;
   position: absolute;
-  bottom: -121.5%;
+  bottom: -90%;
 }
 
 #headerContainer {
